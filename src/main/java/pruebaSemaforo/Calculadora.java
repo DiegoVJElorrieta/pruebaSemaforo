@@ -7,4 +7,7 @@ public class Calculadora {
 		return (x+y);
 	}
 	
+	public int restaEnteros(int x, int y) {
+		return (x-y);
+	}
 }

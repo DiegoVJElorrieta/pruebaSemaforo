@@ -14,5 +14,12 @@ public class CalculadoraTest {
 		int resultadoEsperado = 7;
 		assertEquals(resultadoEsperado, resultado);
 	}
+	
+	@Test
+	public void testRestaEnteros() {
+		int resultado = calc.restaEnteros(5,  3);
+		int resultadoEsperado = 2;
+		assertEquals(resultadoEsperado, resultado);
+	}
 
 }
