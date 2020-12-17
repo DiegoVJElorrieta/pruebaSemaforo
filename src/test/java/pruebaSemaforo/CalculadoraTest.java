@@ -22,4 +22,11 @@ public class CalculadoraTest {
 		assertEquals(resultadoEsperado, resultado);
 	}
 
+	@Test
+	public void testRaizCuadrada() {
+		int resultado = calc.raizCuadrada(16);
+		int resultadoEsperado = 8;
+		assertEquals(resultadoEsperado, resultado);
+	}
+	
 }

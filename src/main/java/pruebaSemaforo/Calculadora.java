@@ -10,4 +10,8 @@ public class Calculadora {
 	public int restaEnteros(int x, int y) {
 		return (x-y);
 	}
+	
+	public int raizCuadrada(double x) {
+		return (int) Math.sqrt(x);
+	}
 }
